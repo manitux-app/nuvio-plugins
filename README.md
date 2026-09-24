@@ -1,6 +1,8 @@
 # nuvio-plugins
 Nuvio için Türkçe içerik sağlayıcı eklentileri
 
+Url: https://raw.githubusercontent.com/manitux-app/nuvio-plugins/refs/heads/main/manifest.json
+
 ## Destek ve Bağış
 
 Projeyi faydalı bularak ve beğenerek kullanıyorsanız uzun ömürlü olması için geliştiricilere destek olun.
