@@ -1,0 +1,13 @@
+{
+  "name": "Manitux Nuvio Plugins",
+  "version": "0.1.0",
+  "author": "manitux",
+  "scrapers": [{
+    "id": "hdfilmcehennemi",
+    "name": "!HDFilmCehennemi",
+    "version": "0.1.0",
+    "filename": "providers/hdfilmcehennemi.js",
+    "supportedTypes": ["movie", "tv"],
+    "contentLanguage": ["tr"]
+  }]
+}
