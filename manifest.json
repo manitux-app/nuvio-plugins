@@ -1,12 +1,12 @@
 {
   "name": "Manitux Nuvio Plugins",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "manitux",
   "scrapers": [
     {
       "id": "hdfilmcehennemi",
       "name": "!HDFilmCehennemi",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "filename": "providers/hdfilmcehennemi.js",
       "supportedTypes": [
         "movie",
@@ -19,7 +19,7 @@
     {
       "id": "filmmakinesi",
       "name": "!FilmMakinesi",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "filename": "providers/filmmakinesi.js",
       "supportedTypes": [
         "movie",
