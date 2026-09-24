@@ -1,13 +1,33 @@
 {
   "name": "Manitux Nuvio Plugins",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "manitux",
-  "scrapers": [{
-    "id": "hdfilmcehennemi",
-    "name": "!HDFilmCehennemi",
-    "version": "0.1.0",
-    "filename": "providers/hdfilmcehennemi.js",
-    "supportedTypes": ["movie", "tv"],
-    "contentLanguage": ["tr"]
-  }]
+  "scrapers": [
+    {
+      "id": "hdfilmcehennemi",
+      "name": "!HDFilmCehennemi",
+      "version": "0.1.1",
+      "filename": "providers/hdfilmcehennemi.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "filmmakinesi",
+      "name": "!FilmMakinesi",
+      "version": "0.1.1",
+      "filename": "providers/filmmakinesi.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ]
+    }
+  ]
 }
