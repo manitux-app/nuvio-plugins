@@ -45,7 +45,7 @@
       "id": "sinewix",
       "name": "!SineWix",
       "version": "0.1.0",
-      "filename": "sinewix.js",
+      "filename": "providers/sinewix.js",
       "supportedTypes": [
         "movie",
         "tv"
