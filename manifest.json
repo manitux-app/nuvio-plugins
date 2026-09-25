@@ -28,6 +28,18 @@
       "contentLanguage": [
         "tr"
       ]
+    },
+    {
+      "id": "diziyou",
+      "name": "!DiziYou",
+      "version": "0.1.0",
+      "filename": "providers/diziyou.js",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ]
     }
   ]
 }
