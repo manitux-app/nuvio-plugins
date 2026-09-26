@@ -16,6 +16,6 @@ Bu bildirimle, bu uzantıların internetten video dosyaları çekerek standart b
 - **Bu depoda veya Nuvio uygulamasında hiçbir içerik barındırılmamaktadır.**
 - Erişilen tüm içerikler üçüncü taraf web siteleri tarafından barındırılmaktadır.
 
-- Kullanıcılar kullanımlarından tamamen kendileri sorumludur ve yerel yasalarına uymak zorundadır.
+- Kullanıcılar kullanımlarından tamamen kendileri sorumludur ve yerel yasalara uymak zorundadır.
 
 İçeriğin telif hakkı yasalarını ihlal ettiğini düşünüyorsanız, lütfen bu deponun veya Nuvio uygulamasının geliştiricileriyle değil, **gerçek dosya barındırıcılarıyla** iletişime geçin.
