@@ -34,6 +34,15 @@
       ]
     },
     {
+      "id": "filmekseni",
+      "name": "!FilmEkseni",
+      "logo": "https://www.google.com/s2/favicons?domain=filmekseni.vip\u0026sz=%size%",
+      "version": "0.1.0",
+      "filename": "filmekseni.js",
+      "supportedTypes": ["movie", "tv"],
+      "contentLanguage": ["tr"]
+    },
+    {
       "id": "diziyou",
       "name": "!DiziYou",
       "logo": "https://www.google.com/s2/favicons?domain=diziyou.one\u0026sz=%size%",
