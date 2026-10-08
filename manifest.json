@@ -43,6 +43,20 @@
       "contentLanguage": ["tr"]
     },
     {
+      "id": "dizibal",
+      "name": "!DiziBal",
+      "logo": "https://www.google.com/s2/favicons?domain=dizibal.org\u0026sz=%size%",
+      "version": "0.1.0",
+      "filename": "providers/dizibal.js",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
       "id": "diziyou",
       "name": "!DiziYou",
       "logo": "https://www.google.com/s2/favicons?domain=diziyou.one\u0026sz=%size%",
