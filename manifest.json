@@ -1,7 +1,7 @@
 {
   "id": "app.manitux.nuvio.plugins",
   "name": "Manitux Nuvio Plugins",
-  "logo": "https://raw.githubusercontent.com/manitux-app/cs-plugins/main/images/icon.png",
+  "logo": "https://raw.githubusercontent.com/manitux-app/nuvi-test-plugins/main/images/icon.png",
   "version": "0.1.4",
   "author": "manitux",
   "scrapers": [
@@ -17,6 +17,27 @@
       ],
       "contentLanguage": [
         "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "supportsComments": true,
+      "catalogs": [
+        { "id": "new-movies", "name": "Yeni Eklenen Filmler", "type": "movie", "supportsPagination": true },
+        { "id": "new-series", "name": "Yeni Eklenen Diziler", "type": "series", "supportsPagination": true },
+        { "id": "recommended", "name": "Tavsiye Filmler", "type": "movie", "supportsPagination": true },
+        { "id": "imdb7", "name": "IMDb 7+ Filmler", "type": "movie", "supportsPagination": true },
+        { "id": "action", "name": "Aksiyon", "type": "movie", "supportsPagination": true },
+        { "id": "science-fiction", "name": "Bilim Kurgu", "type": "movie", "supportsPagination": true },
+        { "id": "animation", "name": "Animasyon", "type": "movie", "supportsPagination": true },
+        { "id": "comedy", "name": "Komedi", "type": "movie", "supportsPagination": true },
+        { "id": "horror", "name": "Korku", "type": "movie", "supportsPagination": true },
+        { "id": "drama", "name": "Dram", "type": "movie", "supportsPagination": true },
+        { "id": "romance", "name": "Romantik", "type": "movie", "supportsPagination": true },
+        { "id": "war", "name": "Savaş", "type": "movie", "supportsPagination": true },
+        { "id": "sports", "name": "Spor", "type": "movie", "supportsPagination": true },
+        { "id": "crime", "name": "Suç", "type": "movie", "supportsPagination": true },
+        { "id": "history", "name": "Tarih", "type": "movie", "supportsPagination": true },
+        { "id": "western", "name": "Western", "type": "movie", "supportsPagination": true }
       ]
     },
     {
@@ -31,6 +52,24 @@
       ],
       "contentLanguage": [
         "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        { "id": "latest-movies", "name": "Son Filmler", "type": "movie", "supportsPagination": true },
+        { "id": "must-watch", "name": "Ölmeden İzle", "type": "movie", "supportsPagination": true },
+        { "id": "action", "name": "Aksiyon", "type": "movie", "supportsPagination": true },
+        { "id": "science-fiction", "name": "Bilim Kurgu", "type": "movie", "supportsPagination": true },
+        { "id": "adventure", "name": "Macera", "type": "movie", "supportsPagination": true },
+        { "id": "comedy", "name": "Komedi", "type": "movie", "supportsPagination": true },
+        { "id": "romance", "name": "Romantik", "type": "movie", "supportsPagination": true },
+        { "id": "documentary", "name": "Belgesel", "type": "movie", "supportsPagination": true },
+        { "id": "fantasy", "name": "Fantastik", "type": "movie", "supportsPagination": true },
+        { "id": "crime", "name": "Polisiye Suç", "type": "movie", "supportsPagination": true },
+        { "id": "horror", "name": "Korku", "type": "movie", "supportsPagination": true },
+        { "id": "animation", "name": "Animasyon", "type": "movie", "supportsPagination": true },
+        { "id": "mystery", "name": "Gizem", "type": "movie", "supportsPagination": true },
+        { "id": "latest-series", "name": "Son Diziler", "type": "series", "supportsPagination": true }
       ]
     },
     {
@@ -40,7 +79,21 @@
       "version": "0.1.0",
       "filename": "providers/filmekseni.js",
       "supportedTypes": ["movie", "tv"],
-      "contentLanguage": ["tr"]
+      "contentLanguage": ["tr"],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        { "id": "movies", "name": "Son Eklenen Filmler", "type": "movie", "supportsPagination": true },
+        { "id": "series", "name": "Son Eklenen Diziler", "type": "series", "supportsPagination": true },
+        { "id": "action", "name": "Aksiyon", "type": "movie", "supportsPagination": true },
+        { "id": "animation", "name": "Animasyon", "type": "movie", "supportsPagination": true },
+        { "id": "science-fiction", "name": "Bilim Kurgu", "type": "movie", "supportsPagination": true },
+        { "id": "comedy", "name": "Komedi", "type": "movie", "supportsPagination": true },
+        { "id": "thriller", "name": "Gerilim", "type": "movie", "supportsPagination": true },
+        { "id": "horror", "name": "Korku", "type": "movie", "supportsPagination": true },
+        { "id": "top-movies", "name": "Yüksek Puanlı Filmler", "type": "movie", "supportsPagination": true },
+        { "id": "top-series", "name": "Yüksek Puanlı Diziler", "type": "series", "supportsPagination": true }
+      ]
     },
     {
       "id": "dizibal",
@@ -54,6 +107,14 @@
       ],
       "contentLanguage": [
         "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        { "id": "latest-movies", "name": "Yeni Eklenen Filmler", "type": "movie", "supportsPagination": true },
+        { "id": "latest-series", "name": "Yeni Eklenen Diziler", "type": "series", "supportsPagination": true },
+        { "id": "action-movies", "name": "Aksiyon Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "action-series", "name": "Aksiyon Dizileri", "type": "series", "supportsPagination": true }
       ]
     },
     {
@@ -67,20 +128,93 @@
       ],
       "contentLanguage": [
         "tr"
+      ],
+       "supportsStreams": true,
+      "supportsSearch": true, 
+      "catalogs": [
+        { "id": "family", "name": "Aile", "type": "series", "supportsPagination": true },
+        { "id": "action", "name": "Aksiyon", "type": "series", "supportsPagination": true },
+        { "id": "animation", "name": "Animasyon", "type": "series", "supportsPagination": true },
+        { "id": "documentary", "name": "Belgesel", "type": "series", "supportsPagination": true },
+        { "id": "science-fiction", "name": "Bilim Kurgu", "type": "series", "supportsPagination": true },
+        { "id": "drama", "name": "Dram", "type": "series", "supportsPagination": true },
+        { "id": "fantasy", "name": "Fantazi", "type": "series", "supportsPagination": true },
+        { "id": "thriller", "name": "Gerilim", "type": "series", "supportsPagination": true },
+        { "id": "mystery", "name": "Gizem", "type": "series", "supportsPagination": true },
+        { "id": "comedy", "name": "Komedi", "type": "series", "supportsPagination": true },
+        { "id": "horror", "name": "Korku", "type": "series", "supportsPagination": true },
+        { "id": "adventure", "name": "Macera", "type": "series", "supportsPagination": true },
+        { "id": "political", "name": "Politik", "type": "series", "supportsPagination": true },
+        { "id": "war", "name": "Savaş", "type": "series", "supportsPagination": true },
+        { "id": "crime", "name": "Suç", "type": "series", "supportsPagination": true },
+        { "id": "western", "name": "Vahşi Batı", "type": "series", "supportsPagination": true }
       ]
     },
     {
-      "id": "sinewix",
-      "name": "!SineWix",
-      "logo": "https://www.google.com/s2/favicons?domain=sinewix.com\u0026sz=%size%",
+      "id": "dexterpw",
+      "name": "!DexterPW",
+      "logo": "https://www.google.com/s2/favicons?domain=dexter.pw\u0026sz=%size%",
       "version": "0.1.0",
-      "filename": "providers/sinewix.js",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "contentLanguage": [
-        "tr"
+      "filename": "providers/dexterpw.js",
+      "supportedTypes": ["movie", "tv"],
+      "contentLanguage": ["en"],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        { "id": "action-movies", "name": "Aksiyon Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "adventure-movies", "name": "Macera Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "animation-movies", "name": "Animasyon Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "comedy-movies", "name": "Komedi Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "crime-movies", "name": "Suç Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "documentary-movies", "name": "Belgeseller", "type": "movie", "supportsPagination": true },
+        { "id": "drama-movies", "name": "Dram Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "family-movies", "name": "Aile Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "fantasy-movies", "name": "Fantastik Filmler", "type": "movie", "supportsPagination": true },
+        { "id": "history-movies", "name": "Tarih Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "horror-movies", "name": "Korku Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "music-movies", "name": "Müzik Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "mystery-movies", "name": "Gizem Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "romance-movies", "name": "Romantik Filmler", "type": "movie", "supportsPagination": true },
+        { "id": "science-fiction-movies", "name": "Bilim Kurgu Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "tv-movies", "name": "TV Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "thriller-movies", "name": "Gerilim Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "war-movies", "name": "Savaş Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "western-movies", "name": "Western Filmleri", "type": "movie", "supportsPagination": true },
+        { "id": "latest-series", "name": "Yeni Eklenen Diziler", "type": "series", "supportsPagination": false },
+        { "id": "top10-series", "name": "Top 10 Diziler", "type": "series", "supportsPagination": false },
+        { "id": "action-adventure-series", "name": "Aksiyon ve Macera Dizileri", "type": "series", "supportsPagination": false },
+        { "id": "drama-series", "name": "Dram Dizileri", "type": "series", "supportsPagination": false },
+        { "id": "comedy-series", "name": "Komedi Dizileri", "type": "series", "supportsPagination": false },
+        { "id": "top-rated-series", "name": "Yüksek Puanlı Diziler", "type": "series", "supportsPagination": false },
+        { "id": "crime-series", "name": "Suç Dizileri", "type": "series", "supportsPagination": false },
+        { "id": "mystery-series", "name": "Gizem Dizileri", "type": "series", "supportsPagination": false },
+        { "id": "all-series", "name": "Tüm Diziler", "type": "series", "supportsPagination": false }
+      ]
+    },
+    {
+      "id": "rarefilm",
+      "name": "!RareFilm",
+      "logo": "https://www.google.com/s2/favicons?domain=rarefilmm.com\u0026sz=%size%",
+      "version": "0.1.0",
+      "filename": "providers/rarefilm.js",
+      "supportedTypes": ["movie"],
+      "contentLanguage": ["en"],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        { "id": "latest", "name": "Son Eklenenler", "type": "movie", "supportsPagination": true },
+        { "id": "action", "name": "Aksiyon", "type": "movie", "supportsPagination": true },
+        { "id": "adventure", "name": "Macera", "type": "movie", "supportsPagination": true },
+        { "id": "animation", "name": "Animasyon", "type": "movie", "supportsPagination": true },
+        { "id": "camp", "name": "Kamp", "type": "movie", "supportsPagination": true },
+        { "id": "comedy", "name": "Komedi", "type": "movie", "supportsPagination": true },
+        { "id": "documentary", "name": "Belgesel", "type": "movie", "supportsPagination": true },
+        { "id": "drama", "name": "Dram", "type": "movie", "supportsPagination": true },
+        { "id": "erotic", "name": "Erotik", "type": "movie", "supportsPagination": true },
+        { "id": "family", "name": "Aile", "type": "movie", "supportsPagination": true },
+        { "id": "fantasy", "name": "Fantastik", "type": "movie", "supportsPagination": true },
+        { "id": "mystery", "name": "Gizem", "type": "movie", "supportsPagination": true },
+        { "id": "theatre", "name": "Tiyatro", "type": "movie", "supportsPagination": true }
       ]
     }
   ]
