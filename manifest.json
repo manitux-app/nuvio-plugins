@@ -191,6 +191,38 @@
         { "id": "all-series", "name": "Tüm Diziler", "type": "series", "supportsPagination": false }
       ]
     },
+     {
+      "id": "dizibox",
+      "name": "!DiziBox",
+      "logo": "https://www.google.com/s2/favicons?domain=diziboxizle.com\u0026sz=%size%",
+      "version": "0.1.0",
+      "filename": "providers/dizibox.js",
+      "supportedTypes": ["tv"],
+      "contentLanguage": ["tr"],
+      "supportsStreams": true,
+      "supportsSearch": false,
+      "supportsComments": true,
+      "catalogs": [
+        { "id": "aile", "name": "Aile", "type": "series", "supportsPagination": true },
+        { "id": "aksiyon", "name": "Aksiyon", "type": "series", "supportsPagination": true },
+        { "id": "animasyon", "name": "Animasyon", "type": "series", "supportsPagination": true },
+        { "id": "belgesel", "name": "Belgesel", "type": "series", "supportsPagination": true },
+        { "id": "bilimkurgu", "name": "Bilimkurgu", "type": "series", "supportsPagination": true },
+        { "id": "biyografi", "name": "Biyografi", "type": "series", "supportsPagination": true },
+        { "id": "dram", "name": "Dram", "type": "series", "supportsPagination": true },
+        { "id": "fantastik", "name": "Fantastik", "type": "series", "supportsPagination": true },
+        { "id": "gerilim", "name": "Gerilim", "type": "series", "supportsPagination": true },
+        { "id": "gizem", "name": "Gizem", "type": "series", "supportsPagination": true },
+        { "id": "komedi", "name": "Komedi", "type": "series", "supportsPagination": true },
+        { "id": "korku", "name": "Korku", "type": "series", "supportsPagination": true },
+        { "id": "macera", "name": "Macera", "type": "series", "supportsPagination": true },
+        { "id": "romantik", "name": "Romantik", "type": "series", "supportsPagination": true },
+        { "id": "savas", "name": "Savaş", "type": "series", "supportsPagination": true },
+        { "id": "suc", "name": "Suç", "type": "series", "supportsPagination": true },
+        { "id": "tarih", "name": "Tarih", "type": "series", "supportsPagination": true },
+        { "id": "western", "name": "Western", "type": "series", "supportsPagination": true }
+      ]
+    },
     {
       "id": "rarefilm",
       "name": "!RareFilm",
